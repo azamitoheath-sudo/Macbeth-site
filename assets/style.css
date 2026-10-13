@@ -4,3 +4,6 @@
 .contact-reveal{background:var(--ink);color:white;border:0;padding:14px 20px;cursor:pointer;font:inherit}
 .contact-reveal:hover{background:var(--purple)}
 .contact-email{text-decoration:underline;text-underline-offset:4px;overflow-wrap:anywhere}
+
+.advisory-reading{font-size:17px}
+.advisory-reading .notice p{font-size:18px}
