@@ -15,3 +15,20 @@ if (menuButton && navigation) {
     }
   });
 }
+
+// Basic harvesting deterrent only: this public script does not keep the address secret.
+const contactReveal = document.querySelector('.contact-reveal');
+if (contactReveal) {
+  contactReveal.hidden = false;
+  contactReveal.addEventListener('click', () => {
+    const mailbox = ['azami', 'to', 'heath'].join('.');
+    const domain = ['gmail', 'com'].join('.');
+    const address = [mailbox, domain].join('@');
+    const link = document.createElement('a');
+    link.href = 'mailto:' + address;
+    link.textContent = address;
+    link.className = 'contact-email';
+    contactReveal.replaceWith(link);
+    link.focus();
+  }, { once: true });
+}
