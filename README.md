@@ -19,6 +19,8 @@ python3 -m http.server 8000
 - `trigger.html`：トリガーアラート
 - `blog.html`：ブログ一覧
 - `blog/performance.html`：公演案内の記事
+- `blog/scotland-and-england.html`：スコットランドとイングランドの概要・作品背景の記事
+- `img/`：ブログ記事用の写真原本と、表示用に軽量化したWebP画像
 - `assets/style.css`：配色、レイアウト、スマートフォン対応
 - `assets/site.js`：スマートフォンのメニュー
 - `assets/flyer-front.jpg` / `flyer-back.jpg`：提供チラシのコピー
