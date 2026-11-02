@@ -28,7 +28,7 @@
 .article-photo-portrait{max-width:360px;margin:30px auto}
 @media(max-width:760px){.country-thumb{min-height:210px}.country-profile{grid-template-columns:1fr;gap:5px}.country-profile dd{margin-bottom:14px}.country-profile dd:last-child{margin-bottom:0}.history-timeline li{grid-template-columns:1fr;gap:4px}}
 
-/* Ticket sales postponement notice */
+/* Ticket reservation notice */
 .ticket-notice{padding:32px 7%;background:#f5dfeb;border-bottom:1px solid #c9afc5;scroll-margin-top:24px}
 .ticket-notice-inner{max-width:1000px;margin:0 auto;border-left:4px solid var(--purple);padding:4px 0 4px 28px}
 .ticket-notice-label{display:flex;flex-wrap:wrap;align-items:center;gap:8px 24px;font-size:12px;font-weight:700;margin-bottom:12px}
